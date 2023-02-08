@@ -3,7 +3,7 @@ import { buttonClasses, inputClasses } from "@mui/material";
 
 const theme = createTheme({
   typography: {
-    fontFamily: "Manrope, sans-serif",
+    fontFamily: "Poppins, sans-serif",
   },
   palette: {
     primary: {
