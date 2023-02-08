@@ -1,7 +1,15 @@
 import Image from "next/image";
+import { useState } from "react";
 import styles from "./Footer.module.scss";
 
 const FooterContainer = () => {
+  const [isDisabled, setIsDisabled] = useState(true);
+
+  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const emailValue = e.target.value;
+    setIsDisabled(!emailValue);
+  };
+
   return (
     <div
       className={`text-white m-auto box-border flex w-full max-w-6xl flex-col items-start pb-5 pl-4	pr-4 ${styles["footer"]}`}
@@ -21,9 +29,10 @@ const FooterContainer = () => {
                 type="text"
                 placeholder="Email address"
                 className={`text-white text-white flex-auto border-none bg-transparent text-base outline-none ${styles["input"]}`}
+                onChange={handleEmailChange}
               />
               <button
-                disabled
+                disabled={isDisabled}
                 className={`text-xs font-semibold bg-white ml-2 box-border cursor-pointer appearance-none rounded-3xl border-none py-1 px-4`}
               >
                 Send
