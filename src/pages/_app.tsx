@@ -6,10 +6,8 @@ import theme from "../../mui.config";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <CssBaseline />
+      <Component {...pageProps} />
     </StyledEngineProvider>
   );
 }

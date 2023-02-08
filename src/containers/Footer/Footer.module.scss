@@ -1,0 +1,81 @@
+.footer {
+    color: rgb(255, 255, 255);
+    background: rgb(15, 17, 59);
+    .footer-menu-container {
+        -webkit-box-pack: start;
+        .newsletter-container, .help-container {
+            -webkit-box-pack: start;
+        }
+        .text-heading {
+            margin-bottom: 16px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 0.7px;
+            color: rgb(255, 255, 255);
+        }
+        .text-list-item {
+            display: block;
+            margin-bottom: 4px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .newsletter-container {
+            .email-container {
+                .email-input-container {
+                    .input {
+                        width: 100px;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+        .join-us-container {
+            -webkit-box-pack: start;
+        }
+    }
+    .divider {
+        margin-top: 70px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-bottom: 1px solid rgb(176, 170, 173);
+    }
+    .social-container {
+        -webkit-box-pack: justify;
+        .copyright-container {
+            -webkit-box-align: center;
+            .logo-link {
+                -webkit-box-align: center;
+                font-size: 18px;
+                line-height: 18px;
+                letter-spacing: 0.5px;
+                padding: 9px;
+            }
+            .languages-container {
+                -webkit-box-align: center;
+                -webkit-box-pack: justify;
+                .languages-select-box {
+                    -webkit-box-align: center;
+                    -webkit-box-pack: justify;
+                }
+            }
+        }
+        .social-links-container {
+            -webkit-box-align: center;
+            right: -65px;
+            .link-item {
+                margin-right: 16px;
+                .social-link {
+                    color: rgb(76, 104, 255);
+                    text-decoration: none;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

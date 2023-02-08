@@ -8,6 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0 auto;
+  background: rgb(15, 17, 59) !important;
 }
 
 a {
@@ -17,32 +18,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.capitalize-first::first-letter {
-  text-transform: uppercase;
-}
-
-.react-multi-carousel-track {
-  height: 100%;
-}
-
-.vjs-big-play-button {
-  border-radius: 50% !important;
-  width: 50px !important;
-  height: 50px !important;
-  transform: translate(-50%, -50%);
-  margin: 0 !important;
-}
-
-.vjs-control-bar {
-  border-radius: 12px;
-}
-
-.error-text {
-  color: #EE1B1B;
-}
-
-video {
-  border-radius: 10px !important;
 }

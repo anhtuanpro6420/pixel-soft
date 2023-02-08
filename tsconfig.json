@@ -19,7 +19,7 @@
       "@Components/*": ["src/components/*"],
       "@Containers/*": ["src/containers/*"],
       "@Hooks/*": ["src/hooks/*"],
-      "@Styles/*": ["src/styles/*"],
+      "@Styles/*": ["src/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
