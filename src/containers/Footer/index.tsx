@@ -170,10 +170,10 @@ const FooterContainer = () => {
             href="#"
             className={`${styles["logo-link"]} text-white font-semibold box-border flex items-center`}
           >
-            <div className="font-semibold box-border">
-              Foodetective
+            <div className="box-border">
+              <span className="font-bold">Foodetective</span>
               <br />
-              <div className="box-border font-medium">For Business</div>
+              <div className="box-border">For Business</div>
             </div>
           </a>
           <div
