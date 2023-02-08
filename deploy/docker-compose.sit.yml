@@ -1,0 +1,16 @@
+version: '2.4'
+
+services:
+  web_app:
+    build: .
+    restart: always
+    networks:
+      - app_network
+    ports:
+      - 7082:3000
+    command: ['pm2-runtime', 'start', '--', 'ecosystem.config.js']
+
+networks:
+  app_network:
+    name: "morale_sit_be_default"
+    driver: bridge

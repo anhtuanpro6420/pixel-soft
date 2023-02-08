@@ -1,0 +1,8 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "lines-between-class-members": 0,
+    "eslint-disable-next-line react/display-name": 0,
+    "no-console": ["error", { "allow": ["warn", "error", "info", "log"] }]
+  }
+}

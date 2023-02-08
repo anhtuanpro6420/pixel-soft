@@ -1,0 +1,128 @@
+.modal-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.modal-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.midol-modal-btn {
+  width: 100%;
+  height: 48px;
+  text-transform: none;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 24px;
+
+  border: 2px solid #532f91;
+  border-radius: 8px;
+}
+
+.modal-share-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+  width: 48px;
+  height: 48px;
+
+  background: #532f91;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.modal-share-icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.icon-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-top: 4px;
+}
+
+.modal-share-wrap {
+  padding: 0 25px;
+
+  // @media screen and (max-width: 768px) {
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  //   padding: 0;
+
+  //   .icon-center {
+  //     display: flex;
+  //     flex-direction: row;
+  //     gap: 16px;
+  //     margin-bottom: 16px;
+  //   }
+  // }
+}
+
+.modal-container {
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .midol-modal-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    gap: 8px;
+    height: 48px;
+    border: 2px solid #532f91;
+    border-radius: 8px;
+    text-transform: none;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .midol-secondary-btn {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000000;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  .modal-list-container {
+    overflow: auto;
+  }
+}
+.w-full {
+  width: 100%;
+}
