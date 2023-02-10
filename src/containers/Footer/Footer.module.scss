@@ -1,52 +1,49 @@
+$white-color: rgb(255, 255, 255);
+
+.text-list-item {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white-color;
+    text-decoration: none;
+}
 .footer {
-    color: rgb(255, 255, 255);
+    color: $white-color;
     background: rgb(15, 17, 59);
     .footer-menu-container {
         -webkit-box-pack: start;
-        .newsletter-container, .help-container {
-            -webkit-box-pack: start;
-        }
         .text-heading {
             margin-bottom: 16px;
             font-weight: 700;
             font-size: 18px;
             line-height: 27px;
             letter-spacing: 0.7px;
-            color: rgb(255, 255, 255);
+            color: $white-color;
         }
-        .text-list-item {
-            display: block;
-            margin-bottom: 4px;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            color: rgb(255, 255, 255);
-            text-decoration: none;
-        }
+        
         .newsletter-container {
             .email-container {
                 .email-input-container {
                     .input {
                         width: 100px;
-                        color: rgb(255, 255, 255);
+                        color: $white-color;
                     }
                     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                        color: rgb(255, 255, 255);
+                        color: $white-color;
                         opacity: 1; /* Firefox */
                     }
                       
                     :-ms-input-placeholder { /* Internet Explorer 10-11 */
-                    color: rgb(255, 255, 255);
+                    color: $white-color;
                     }
                       
                     ::-ms-input-placeholder { /* Microsoft Edge */
-                    color: rgb(255, 255, 255);
+                    color: $white-color;
                     }
                 }
             }
-        }
-        .join-us-container {
-            -webkit-box-pack: start;
         }
     }
     .divider {
@@ -82,11 +79,6 @@
             right: -65px;
             .link-item {
                 margin-right: 16px;
-                .social-link {
-                    color: rgb(76, 104, 255);
-                    text-decoration: none;
-                    background-color: transparent;
-                }
             }
         }
     }
